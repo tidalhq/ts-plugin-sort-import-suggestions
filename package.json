@@ -1,5 +1,5 @@
 {
-  "name": "ts-sort-import-suggestions-plugin",
+  "name": "ts-plugin-sort-import-suggestions",
   "version": "1.0.1",
   "description": "Customize the priority of auto-import suggestions from TypeScript Language Server",
   "main": "index.js",

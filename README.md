@@ -1,4 +1,4 @@
-# TypeScript Sort Import Suggestions Plugin
+# ts-plugin-sort-import-suggestions
 
 A TypeScript plugin enables developers to customize the order of auto-import suggestions provided by the TypeScript Language Server. It should be compatible with any IDE or editor that utilizes the TypeScript Language Server.
 
@@ -13,7 +13,7 @@ A TypeScript plugin enables developers to customize the order of auto-import sug
 - Install package
 
     ```bash
-    npm install ts-sort-import-suggestions-plugin
+    npm install ts-plugin-sort-import-suggestions
     ```
 
 - Config `tsconfig.json`
@@ -23,7 +23,7 @@ A TypeScript plugin enables developers to customize the order of auto-import sug
       "compilerOptions": {
         "plugins": [
           {
-            "name": "ts-sort-import-suggestions-plugin",
+            "name": "ts-plugin-sort-import-suggestions",
             // Matches `@/`, `../` and `./`, move them up in the suggestions (This is the default config if you leave it empty)
             "moveUpPatterns": ["@/", "\\\\.{1,2}/"],
             // Move `dist` down in the suggestions, by deafult it's `[]`
