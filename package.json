@@ -7,6 +7,9 @@
     "build": "esbuild index.ts --outfile=index.js",
     "dev": "esbuild index.ts --watch --outfile=index.js"
   },
+  "files": [
+   "index.js"
+  ],
   "dependencies": {
     "esbuild": "^0.20.1",
     "typescript": "^5.3.3"
