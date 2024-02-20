@@ -54,7 +54,6 @@ function init(modules: {
         const newEntry = { ...e };
         const source = e.source;
         if (source) {
-          info.project.projectService.logger.info("=== source" + source);
           if (moveUpRegexes.some((re) => re.test(source))) {
             // Move this item to the bottom of its previous group, e.g. sortText: `12` -> `111`
             newEntry.sortText =
