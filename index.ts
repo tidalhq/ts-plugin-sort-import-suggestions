@@ -6,8 +6,6 @@ function init(modules: {
   const ts = modules.typescript;
 
   function create(info: ts.server.PluginCreateInfo) {
-    // Get a list of things to remove from the completion list from the config object.
-    // If nothing was specified, we'll just remove 'caller'
     const moveUpPatterns: string[] = info.config.moveUpPatterns ?? [
       "@/",
       "\\\\.{1,2}/", // matches `../` or `./`
