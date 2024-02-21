@@ -25,7 +25,7 @@ A TypeScript plugin enables developers to customize the order of auto-import sug
           {
             "name": "ts-plugin-sort-import-suggestions",
             // Matches `@/`, `../` and `./`, move them up in the suggestions (This is the default config if you leave it empty)
-            "moveUpPatterns": ["@/", "\\\\.{1,2}/"],
+            "moveUpPatterns": ["@/", "\\.{1,2}/"],
             // Move `dist` down in the suggestions, by deafult it's `[]`
             "moveDownPatterns": ["dist"],
           }

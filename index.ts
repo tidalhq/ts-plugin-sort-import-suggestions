@@ -8,7 +8,7 @@ function init(modules: {
   function create(info: ts.server.PluginCreateInfo) {
     const moveUpPatterns: string[] = info.config.moveUpPatterns ?? [
       "@/",
-      "\\\\.{1,2}/", // matches `../` or `./`
+      "\\.{1,2}/", // matches `../` or `./`
     ];
     const moveDownPatterns: string[] = info.config.moveDownPatterns ?? [];
     const moveUpRegexes: RegExp[] = moveUpPatterns.map(

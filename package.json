@@ -1,15 +1,13 @@
 {
   "name": "ts-plugin-sort-import-suggestions",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "Customize the priority of auto-import suggestions from TypeScript Language Server",
   "main": "index.js",
   "scripts": {
     "build": "esbuild index.ts --outfile=index.js",
     "dev": "esbuild index.ts --watch --outfile=index.js"
   },
-  "files": [
-   "index.js"
-  ],
+  "files": ["index.js"],
   "devDependencies": {
     "esbuild": "^0.20.1",
     "typescript": "^5.3.3"
