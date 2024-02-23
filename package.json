@@ -1,8 +1,11 @@
 {
   "name": "ts-plugin-sort-import-suggestions",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "Customize the priority of auto-import suggestions from TypeScript Language Server",
+  "repository": "github:tidalhq/ts-plugin-sort-import-suggestions",
+  "homepage": "https://github.com/tidalhq/ts-plugin-sort-import-suggestions",
   "main": "index.js",
+  "license": "MIT",
   "scripts": {
     "build": "esbuild index.ts --outfile=index.js",
     "dev": "esbuild index.ts --watch --outfile=index.js"
